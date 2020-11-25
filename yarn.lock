@@ -2,13 +2,12 @@
 # yarn lockfile v1
 
 
-"@verdaccio/file-locking@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/@verdaccio/file-locking/-/file-locking-0.0.3.tgz#32d3702ff5184d1d3893f0f1d47629ad33d1c113"
+"@verdaccio/file-locking@^1.0.0":
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@verdaccio/file-locking/-/file-locking-1.0.4.tgz#063b7b055a68e9e36b57b8e5ff9af01168b1f8f8"
+  integrity sha512-81FvPata3K9bpKY5wsCV+31yAJS8KWjHDcvzvAryghaAT4e5zEWo0HTHK2WZ1tIXM7Adm0PH0mBZbxq2HgMlsQ==
   dependencies:
-    babel-polyfill "6.23.0"
-    lockfile "1.0.3"
-    lodash "4.17.4"
+    lockfile "1.0.4"
 
 JSONStream@^0.8.4:
   version "0.8.4"
@@ -851,7 +850,7 @@ babel-plugin-transform-strict-mode@^6.24.1:
     babel-runtime "^6.22.0"
     babel-types "^6.24.1"
 
-babel-polyfill@6.23.0, babel-polyfill@^6.23.0:
+babel-polyfill@^6.23.0:
   version "6.23.0"
   resolved "https://registry.npmjs.org/babel-polyfill/-/babel-polyfill-6.23.0.tgz#8364ca62df8eafb830499f699177466c3b03499d"
   dependencies:
@@ -3772,7 +3771,14 @@ locate-path@^2.0.0:
     p-locate "^2.0.0"
     path-exists "^3.0.0"
 
-lockfile@1.0.3, lockfile@^1.0.1:
+lockfile@1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/lockfile/-/lockfile-1.0.4.tgz#07f819d25ae48f87e538e6578b6964a4981a5609"
+  integrity sha512-cvbTwETRfsFh4nHsL1eGWapU1XFi5Ot9E85sWAwia7Y7EgB7vfqcZhTKZ+l7hCGxSPoushMv5GKhT5PdLv03WA==
+  dependencies:
+    signal-exit "^3.0.2"
+
+lockfile@^1.0.1:
   version "1.0.3"
   resolved "https://registry.npmjs.org/lockfile/-/lockfile-1.0.3.tgz#2638fc39a0331e9cac1a04b71799931c9c50df79"
 
